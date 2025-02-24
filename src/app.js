@@ -40,7 +40,7 @@ const swaggerOptions = {
     },
     servers: [{ url: process.env.URL_API || "http://localhost:3000" }],
   },
-  apis: ["./src/routes/*.js"],
+  apis: ["./routes/*.js"],
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
